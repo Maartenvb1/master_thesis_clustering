@@ -14,7 +14,7 @@ Heart Failure with Preserved Ejection Fraction (HFpEF) is a complex syndrome cha
 To explore the heterogeneity within HFpEF by employing unsupervised machine learning techniques to identify distinct patient subgroups and assess their clinical relevance.
 
 ### Methods
-The study analyzed data from 511 patients who underwent bicycle echocardiography. Various clustering algorithms, including K-means, Partitioning Around Medoids (PAM), and DBSCAN, were applied to a set of 26 clinical variables. Multiple imputation was used to handle missing data, and the optimal number of clusters was determined using the Gap statistic. The clusters were compared based on their characteristics and outcomes.
+The study analyzed data from 511 patients who underwent bicycle echocardiography. Various clustering algorithms, including K-means, Partitioning Around Medoids (PAM), and DBSCAN, were applied to a set of 25 clinical variables. Multiple imputation was used to handle missing data, and the optimal number of clusters was determined using the Gap statistic. The clusters were compared based on their characteristics and outcomes.
 
 ### Results
 The analysis identified significant differences in clustering variables and two outcome variables, suggesting distinct phenotypic clusters. K-means with three clusters emerged as the most stable method. However, survival analysis showed no significant differences between the clusters in the cardiovascular outcome mortality or urgent rehospitalization, indicating that the clusters differ in baseline characteristics but not in long-term risks.
